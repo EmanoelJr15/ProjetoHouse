@@ -1,0 +1,108 @@
+body {
+    color: white;
+    background-color: black ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(./Rhanyra.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+main {
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 250px;
+    height: 250px;  
+    border-radius: 50%;
+    border: 5px solid red
+}
+
+.center {
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px
+}
+
+video {
+   width: 500px;
+   height: 500px;
+   margin-bottom: 50px;
+}
+
+.caraxes1 {
+    border: none;
+    margin-top: 80px;
+    border-radius: 0px;
+    height: 250px;
+    width: 500px;
+ }   
+
+ .p3 {
+    margin-top: 80px;
+ }
+
+.caraxes2 {
+    border: none;
+    margin-top: 80px;
+    border-radius: 0%;
+    height: 250px;
+    width: 500px;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 10px 10px 15px red;
+}
+
